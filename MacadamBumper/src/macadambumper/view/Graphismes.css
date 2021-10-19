@@ -1,0 +1,97 @@
+/* ANCHORPANE */
+#anchorP {
+    -fx-background-image: url(/macadambumper/images/back.png);
+    -fx-background-color: black;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover,auto;
+}
+
+/* TITLE  */
+#title {
+    -fx-font-family: 'Helvetica', Arial, sans-serif;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+
+}
+
+/* ENTER NAME */
+#name {
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+}
+
+#progressBar {
+    -fx-text-box-border: #1cb3ff;
+    -fx-control-inner-background: black;
+    
+}
+
+#lScore1 {
+    -fx-font-family: neon;
+}
+#lScore2 {
+    -fx-font-family: neon;
+}
+#lScore3 {
+    -fx-font-family: neon;
+}
+#lScore4 {
+   -fx-font-family: neon;
+}
+#lHighscore {
+    -fx-font-family: neon;
+}
+#lBalls {
+    -fx-font-family: neon;
+}
+#lName {
+    -fx-font-family: neon;
+}
+#slider {
+    -fx-control-inner-background: #1cb3ff;
+}
+
+/* HELP BUTTON */
+#helpButton {
+    -fx-background-color:
+        linear-gradient(#f855b7, #1ad2fe),
+        linear-gradient(#f96dc1, #5db1e4),
+        linear-gradient(#f855b7, #00ffff),
+        linear-gradient(#ff71ce 0%, #ff3ebc 50%, #00ffff 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #313131;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+#buttonFR {
+    -fx-background-color:
+        linear-gradient(#f855b7, #1ad2fe),
+        linear-gradient(#f96dc1, #5db1e4),
+        linear-gradient(#f855b7, #00ffff),
+        linear-gradient(#ff71ce 0%, #ff3ebc 50%, #00ffff 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #313131;
+    -fx-font-size: 10px;
+    -fx-padding: 2 10 2 10;
+}
+
+#buttonEN {
+    -fx-background-color:
+        linear-gradient(#f855b7, #1ad2fe),
+        linear-gradient(#f96dc1, #5db1e4),
+        linear-gradient(#f855b7, #00ffff),
+        linear-gradient(#ff71ce 0%, #ff3ebc 50%, #00ffff 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #313131;
+    -fx-font-size: 10px;
+    -fx-padding: 2 10 2 10;
+}
